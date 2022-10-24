@@ -20,7 +20,7 @@ setup(
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
-    packages=find_packages(),
+    packages=["attendance_tracker_email"],
     install_requires=[],
     keywords=['python', 'attendance', 'tracking',
               'live stream', 'camera stream'],

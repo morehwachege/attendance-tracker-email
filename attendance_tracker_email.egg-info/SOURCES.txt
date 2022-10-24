@@ -1,7 +1,0 @@
-LICENSE
-README.md
-setup.py
-attendance_tracker_email.egg-info/PKG-INFO
-attendance_tracker_email.egg-info/SOURCES.txt
-attendance_tracker_email.egg-info/dependency_links.txt
-attendance_tracker_email.egg-info/top_level.txt
