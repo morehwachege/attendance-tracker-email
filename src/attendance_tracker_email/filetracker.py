@@ -1,11 +1,7 @@
-import email
-from genericpath import isfile
 import os
 
-dir = 'text_files'
 email_list = []
-
-def get_emails():
+def get_emails(dir):
     for files in os.listdir(dir):
         f= os.path.join(dir, files)
         if os.path.isfile(f):
