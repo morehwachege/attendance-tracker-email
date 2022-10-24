@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+attendance_tracker_email.egg-info
 build/
 develop-eggs/
 dist/
