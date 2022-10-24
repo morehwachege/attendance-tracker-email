@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.1.0'
+VERSION = '0.1.5'
 DESCRIPTION = 'Attendance tracker package using emails'
 LONG_DESCRIPTION = 'This package tracks the attendance of participants in online events using their emails'
 
@@ -20,7 +20,7 @@ setup(
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
-    packages=["attendance_tracker_email"],
+    packages=find_packages(),
     install_requires=[],
     keywords=['python', 'attendance', 'tracking',
               'live stream', 'camera stream'],

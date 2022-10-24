@@ -1,7 +1,7 @@
-from filetracker import get_emails
+from . import filetracker
 
 def show_attended(dir=""):
-    emails = get_emails(dir)
+    emails = filetracker.get_emails(dir)
     single_emails = set(emails)
     attendance_days_per_email = {}
     for attended in single_emails:
