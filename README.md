@@ -1,6 +1,6 @@
 # Attendance Tracker
 
-Tracks the attendace of participants in online events using their emails
+Tracks the attendance of participants in online events using their emails
 
 
 ### Next in the project
